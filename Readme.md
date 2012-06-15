@@ -1,6 +1,6 @@
 This is a first playground for getting familiar with the cassandra gem and Cassandra itself.
 
-First you probably have to setup the keyspace and column family like this:
+First you probably have to setup the keyspace and column family. You can do this in cassandra-cli like this:
 ```
 connect localhost/9160;
 create keyspace Playground;
